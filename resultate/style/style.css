@@ -1,0 +1,251 @@
+body{
+    height: 100vh;
+    margin: 0px;
+    background-color: #F9F9F9;
+    min-width: 1550px;
+}
+
+header{
+    background-color: #F9F9F9;
+    height: 20vh;
+}
+
+.div_logo{
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.div_logo > img{
+    padding: 10px;
+    justify-content: center;
+    padding: 60px 0px 25px 0px;
+}
+
+.div_modelo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #131211;
+    color: #fff;
+    min-height: 5px;
+}
+
+.div_modelo > #polo{
+    color: #F8BE30;
+}
+
+.div_modelo > h1 {
+    margin: 22px 40px 22px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: .4rem;
+}
+
+.div_modelo > h1:hover{
+    cursor:pointer;
+}
+
+.icon{
+    width: 1px;
+    margin: 10px 0px 10px 0px;
+    background-color: #fff;
+}
+
+main{
+    min-height: 73vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-width: 694px;
+}
+
+.section_left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0px 70px 70px;
+    width: 50%;
+    margin-left: 150px;
+    min-width: 694px;
+}
+
+.icon2{
+    width: 1.5px;
+    height: 120px;
+    margin: 5px 0px 5px 0px;
+    background-color: #B1E0E8;
+}
+
+.div_imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_descricao{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 16px 5px 20px 10px;
+    font-size: 27px;
+    background-color: #F2F2F2;
+    width: 482px;
+}
+
+.div_descricao > p{
+    margin: 20px 0px 20px 0px;
+    padding: 0px 10px 0px 10px;
+}
+
+.div_descricao > p > strong{
+    margin: 5px;
+}
+
+#img_back{
+    position: absolute;
+}
+
+#img_front{
+    position: absolute;
+    margin-top: 80px;
+}
+
+.section_rigth{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 250px;
+}
+
+.section_rigth > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_rigth > div > p{
+    margin: 0;
+}
+
+.section_rigth > div > form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section_rigth > div > form > input{
+    border-color: #F6F6F6;
+    border-radius: 3px;
+    border-width: 0.5px;
+    height: 24px;
+    width: 473px;
+    padding: 9px;
+    border-style: solid;
+    font-style: italic;
+    background-color: #fff;
+}
+
+.section_rigth > div > form > textarea{
+    border-color: #F6F6F6;
+    border-radius: 5px;
+    border-width: 0.5px;
+    padding: 9px;
+    height: 64px;
+    width: 473px;
+    border-style: solid;
+    font-style: italic;
+    background-color: #fff;
+}
+
+#submit{
+    background-image: linear-gradient(to left,  #28A483,#6AC365 );;
+    height: 60px;
+    width: 493px;
+    font-style: normal;
+    color: #fff;
+    font-size: 18px;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+.section_rigth > div{
+    margin-top: 60px;
+}
+
+.div_forms{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 50vh;
+}
+
+.div_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #FCCA20;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px 10px 0px;
+}
+
+footer{
+    color: #fff;
+    min-height: 7vh;
+    background-color: #131211;
+}
+
+.div_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.div_footer > div{
+    margin: 25px 15px 10px 15px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.div_footer > img{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 1146px) {
+    main{
+        flex-direction: column;
+    }
+    body{
+        min-width: 700px;
+    }
+    .section_rigth{
+        margin-top: 400px;
+        width: 100%;
+        margin-bottom: 100px;
+        margin-right: 0px;
+    }
+    .div_descricao{
+        margin-top: 100px;
+    }
+    .section_left{
+        padding: 70px 0px 70px 0px;
+        margin-left: 0px; 
+        width: 100%;
+    }
+}
+
