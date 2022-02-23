@@ -38,7 +38,8 @@ To install ResultateChallenge, follow these steps:
 To use ResultateChallenge, follow these steps:
 
 ```
-The project was developed to be a static page for a car company with a form to request a simulation of the purchase
+The project was developed to be a static page for a car company with a form to 
+request a simulation of the purchase
 ```
 
 ## 📫 Contributing to ResultateChallenge
